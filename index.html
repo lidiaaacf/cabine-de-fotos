@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>JFusion PhotoBooth</title>
+    
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+    </style>
+    <div class="container">
+
+        <main>
+            <video id="video" width="500" height="400" autoplay></video>
+        </main>
+
+        <div class="instrucao">
+            <div id="photoDiv"><p>TIRAR FOTO (ENTER)</p></div>
+            <div id="qrCodeDiv"><p>ABRIR QRCODE (Q)</p></div>
+        </div>
+
+        <div class="timer escondida">
+        </div>
+        <div class="sombra escondida"></div>
+
+        <div class="modal escondido">
+            <h1>Foto salva com sucesso!</h1>
+            <button class="botaoSairModal">SAIR (ESC)</button>
+        </div>
+        <div class="overlay escondido"></div>
+
+        <div class="popup qrCode">
+            <h1>Acesse suas fotos nessa pasta!</h1>
+            <img src="./assets/qrCode.jpeg" alt="QR Code" class="qrcode">
+            <p>Disponíveis a partir de amanhã.</p>
+            <button class="sairQrcode">SAIR (ESC)</button>
+        </div>
+        <div class="sobressair qrCode"></div>
+
+        <div class="scroller">
+            <ul class="scrollerInner">
+            </ul>
+        </div>
+
+        <footer>
+            <section><img src="./assets/insta.png" class="insta"><p>@infinity.school</p></section>
+            <section><img src="./assets/linkedin.png" class="linkedin"><p>in/rockavelar</p></section>
+            <section><img src="./assets/linkedin.png" class="linkedin"><p>in/lidiacarvalholkdn</p></section>
+            <section><img src="./assets/linkedin.png" class="linkedin"><p>in/clarasoliva11</p></section>
+        </footer>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
