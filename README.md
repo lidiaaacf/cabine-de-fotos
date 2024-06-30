@@ -4,8 +4,8 @@ Desenvolvi esse projeto para um evento da Infinity School BH, na qual utilizamos
 
 ## Ferramentas utilizadas
 
-### * FlatIcon = ícones do LinkedIn e Instagram
-### * AJAX FileSaver = funcionalidade de download utilizada na função de captura
+### FlatIcon = ícones do LinkedIn e Instagram
+### AJAX FileSaver = funcionalidade de download utilizada na função de captura
 
 ## Colaboradores
 
